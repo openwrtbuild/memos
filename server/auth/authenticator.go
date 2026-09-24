@@ -10,8 +10,8 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // Authenticator provides shared authentication and authorization logic.

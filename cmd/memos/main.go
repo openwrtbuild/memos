@@ -13,13 +13,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/usememos/memos/internal/profile"
-	"github.com/usememos/memos/internal/version"
-	"github.com/usememos/memos/internal/webhook"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/server"
-	"github.com/usememos/memos/store"
-	"github.com/usememos/memos/store/db"
+	"github.com/openwrtbuild/memos/internal/profile"
+	"github.com/openwrtbuild/memos/internal/version"
+	"github.com/openwrtbuild/memos/internal/webhook"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/server"
+	"github.com/openwrtbuild/memos/store"
+	"github.com/openwrtbuild/memos/store/db"
 )
 
 func initSlogDefault() {

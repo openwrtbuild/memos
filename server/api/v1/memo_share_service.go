@@ -14,10 +14,10 @@ import (
 	"github.com/lithammer/shortuuid/v4"
 	"github.com/pkg/errors"
 
-	"github.com/usememos/memos/core/access"
-	"github.com/usememos/memos/internal/ratelimit"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/core/access"
+	"github.com/openwrtbuild/memos/internal/ratelimit"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // CreateMemoShare creates an opaque share link for a memo.

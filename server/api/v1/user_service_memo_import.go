@@ -16,12 +16,12 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/usememos/memos/core/memoexport"
-	"github.com/usememos/memos/core/memopayload"
-	"github.com/usememos/memos/internal/ratelimit"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/core/memoexport"
+	"github.com/openwrtbuild/memos/core/memopayload"
+	"github.com/openwrtbuild/memos/internal/ratelimit"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // PlanMemoImport classifies every record of an archive against the

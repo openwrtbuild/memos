@@ -1,4 +1,4 @@
-module github.com/usememos/memos
+module github.com/openwrtbuild/memos
 
 go 1.27.0
 

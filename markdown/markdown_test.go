@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/usememos/memos/internal/identifier"
+	"github.com/openwrtbuild/memos/internal/identifier"
 )
 
 func TestNewService(t *testing.T) {

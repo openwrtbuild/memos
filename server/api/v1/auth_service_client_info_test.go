@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/usememos/memos/internal/clientip"
+	"github.com/openwrtbuild/memos/internal/clientip"
 
 	"google.golang.org/grpc/metadata"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
 )
 
 func TestParseUserAgent(t *testing.T) {

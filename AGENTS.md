@@ -109,7 +109,7 @@ Black-box service tests live in `server/api/v1/test/`, unit tests next to the co
 
 - Wrap errors with `errors.Wrap(err, "context")` from `github.com/pkg/errors`; do not use `fmt.Errorf`.
 - Return service errors with `status.Errorf(codes.X, "message")`.
-- Keep imports grouped as stdlib, third-party, then `github.com/usememos/memos`; goimports is run by golangci-lint.
+- Keep imports grouped as stdlib, third-party, then `github.com/openwrtbuild/memos`; goimports is run by golangci-lint.
 - Add doc comments for exported identifiers; godot enforces exported comment punctuation.
 - Avoid package-level mutable state unless the surrounding package already uses that pattern.
 

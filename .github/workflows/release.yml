@@ -164,7 +164,7 @@ jobs:
 
           go build \
             -trimpath \
-            -ldflags="-s -w -X github.com/usememos/memos/internal/version.Version=${{ needs.prepare.outputs.version }} -X github.com/usememos/memos/internal/version.Commit=${{ github.sha }} -extldflags '-static'" \
+            -ldflags="-s -w -X github.com/openwrtbuild/memos/internal/version.Version=${{ needs.prepare.outputs.version }} -X github.com/openwrtbuild/memos/internal/version.Commit=${{ github.sha }} -extldflags '-static'" \
             -tags netgo,osusergo \
             -o "build/${output_name}" \
             ./cmd/memos
@@ -311,7 +311,7 @@ jobs:
             COMMIT=${{ github.sha }}
           cache-from: type=gha,scope=release-${{ matrix.platform }}
           cache-to: type=gha,mode=max,scope=release-${{ matrix.platform }}
-          outputs: type=image,name=neosmemo/memos,push-by-digest=true,name-canonical=true,push=true
+          outputs: type=image,name=dockerbuild01/memos,push-by-digest=true,name-canonical=true,push=true
 
       - name: Export digest
         run: |
@@ -368,19 +368,19 @@ jobs:
           tags="$(bash "$GITHUB_WORKSPACE/scripts/release_version.sh" image-tags "${{ needs.prepare.outputs.tag }}")"
           args=()
           while IFS= read -r tag; do
-            args+=(-t "neosmemo/memos:${tag}" -t "ghcr.io/usememos/memos:${tag}")
+            args+=(-t "dockerbuild01/memos:${tag}" -t "ghcr.io/openwrtbuild/memos:${tag}")
           done <<< "$tags"
           digests=()
           for digest in *; do
-            digests+=("neosmemo/memos@sha256:${digest}")
+            digests+=("dockerbuild01/memos@sha256:${digest}")
           done
           docker buildx imagetools create "${args[@]}" "${digests[@]}"
 
       - name: Inspect images
         run: |
-          docker buildx imagetools inspect neosmemo/memos:${{ needs.prepare.outputs.version }}
+          docker buildx imagetools inspect dockerbuild01/memos:${{ needs.prepare.outputs.version }}
           if [ "${{ needs.prepare.outputs.is_prerelease }}" = "true" ]; then
             exit 0
           fi
 
-          docker buildx imagetools inspect neosmemo/memos:stable
+          docker buildx imagetools inspect dockerbuild01/memos:stable

@@ -8,8 +8,8 @@ import (
 
 	"github.com/labstack/echo/v5"
 
-	"github.com/usememos/memos/server/auth"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/server/auth"
+	"github.com/openwrtbuild/memos/store"
 )
 
 const (

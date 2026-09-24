@@ -14,9 +14,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/usememos/memos/internal/webhook"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/internal/webhook"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func TestDeleteMemoWebhooksRespectCurrentReadAccess(t *testing.T) {

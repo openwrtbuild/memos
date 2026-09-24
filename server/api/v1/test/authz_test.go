@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/usememos/memos/internal/random"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	apiv1 "github.com/usememos/memos/server/api/v1"
-	"github.com/usememos/memos/server/auth"
+	"github.com/openwrtbuild/memos/internal/random"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	apiv1 "github.com/openwrtbuild/memos/server/api/v1"
+	"github.com/openwrtbuild/memos/server/auth"
 )
 
 // TestAuthorizerPrivateInstanceRegistration verifies that registration and other

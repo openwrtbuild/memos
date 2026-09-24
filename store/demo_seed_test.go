@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/usememos/memos/internal/profile"
-	"github.com/usememos/memos/store"
-	"github.com/usememos/memos/store/db/sqlite"
+	"github.com/openwrtbuild/memos/internal/profile"
+	"github.com/openwrtbuild/memos/store"
+	"github.com/openwrtbuild/memos/store/db/sqlite"
 )
 
 func TestDemoSeedUsesDeploymentAuthenticationPolicy(t *testing.T) {

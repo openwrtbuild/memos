@@ -13,8 +13,8 @@ import (
 	"github.com/labstack/echo/v5/middleware"
 	"github.com/pkg/errors"
 
-	"github.com/usememos/memos/internal/profile"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/internal/profile"
+	"github.com/openwrtbuild/memos/store"
 )
 
 //go:embed dist/*

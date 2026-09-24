@@ -12,10 +12,10 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/usememos/memos/core/access"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/core/access"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func (s *APIV1Service) ListUserNotifications(ctx context.Context, request *v1pb.ListUserNotificationsRequest) (*v1pb.ListUserNotificationsResponse, error) {

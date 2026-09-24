@@ -5,8 +5,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/usememos/memos/internal/identifier"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/internal/identifier"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // BuildUserName returns the canonical public resource name for a user.

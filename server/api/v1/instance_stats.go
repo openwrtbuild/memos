@@ -14,8 +14,8 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	"github.com/usememos/memos/store"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	"github.com/openwrtbuild/memos/store"
 )
 
 const instanceStatsCacheTTL = 60 * time.Second

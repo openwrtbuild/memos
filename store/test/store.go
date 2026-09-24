@@ -12,10 +12,10 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"github.com/usememos/memos/internal/profile"
-	"github.com/usememos/memos/internal/version"
-	"github.com/usememos/memos/store"
-	"github.com/usememos/memos/store/db"
+	"github.com/openwrtbuild/memos/internal/profile"
+	"github.com/openwrtbuild/memos/internal/version"
+	"github.com/openwrtbuild/memos/store"
+	"github.com/openwrtbuild/memos/store/db"
 )
 
 // NewTestingStore creates a new testing store with a fresh database.

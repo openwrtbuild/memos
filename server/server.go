@@ -14,14 +14,14 @@ import (
 	"github.com/labstack/echo/v5/middleware"
 	"github.com/pkg/errors"
 
-	"github.com/usememos/memos/internal/clientip"
-	"github.com/usememos/memos/internal/profile"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	apiv1 "github.com/usememos/memos/server/api/v1"
-	"github.com/usememos/memos/server/fileserver"
-	"github.com/usememos/memos/server/frontend"
-	"github.com/usememos/memos/server/mcp"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/internal/clientip"
+	"github.com/openwrtbuild/memos/internal/profile"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	apiv1 "github.com/openwrtbuild/memos/server/api/v1"
+	"github.com/openwrtbuild/memos/server/fileserver"
+	"github.com/openwrtbuild/memos/server/frontend"
+	"github.com/openwrtbuild/memos/server/mcp"
+	"github.com/openwrtbuild/memos/store"
 )
 
 const (
@@ -69,7 +69,7 @@ func NewServer(ctx context.Context, profile *profile.Profile, store *store.Store
 		return nil, errors.Wrap(err, "failed to get instance basic setting")
 	}
 
-	secret := "usememos"
+	secret := "openwrtbuild"
 	if !profile.Demo {
 		secret = instanceBasicSetting.SecretKey
 	}

@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/usememos/memos/internal/identifier"
-	"github.com/usememos/memos/internal/random"
+	"github.com/openwrtbuild/memos/internal/identifier"
+	"github.com/openwrtbuild/memos/internal/random"
 )
 
 const (

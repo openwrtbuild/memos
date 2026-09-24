@@ -14,12 +14,12 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/usememos/memos/internal/clientip"
-	"github.com/usememos/memos/internal/random"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/server/auth"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/internal/clientip"
+	"github.com/openwrtbuild/memos/internal/random"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/server/auth"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func (s *APIV1Service) doSignIn(ctx context.Context, user *store.User) (string, time.Time, error) {

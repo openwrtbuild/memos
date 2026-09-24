@@ -16,7 +16,7 @@ import (
 	sdkmcp "github.com/modelcontextprotocol/go-sdk/mcp"
 	"github.com/pkg/errors"
 
-	"github.com/usememos/memos/internal/clientip"
+	"github.com/openwrtbuild/memos/internal/clientip"
 )
 
 type apiAdapter struct {

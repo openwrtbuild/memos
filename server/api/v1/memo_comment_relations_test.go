@@ -7,15 +7,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	"github.com/usememos/memos/store"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // TestCreateMemoComment_ReturnsParentRelation verifies that the memo returned by
 // CreateMemoComment carries the COMMENT relation to its parent memo. The comment
 // memo is converted before the relation is created, so without an explicit reload
 // the returned memo (and the memo.comment.created webhook payload built from it)
-// would have an empty Relations slice. Regression test for usememos/memos#6081.
+// would have an empty Relations slice. Regression test for openwrtbuild/memos#6081.
 func TestCreateMemoComment_ReturnsParentRelation(t *testing.T) {
 	ctx := context.Background()
 	svc := newIntegrationService(t)

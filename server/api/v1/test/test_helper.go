@@ -5,13 +5,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/usememos/memos/internal/profile"
-	"github.com/usememos/memos/markdown"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	apiv1 "github.com/usememos/memos/server/api/v1"
-	"github.com/usememos/memos/server/auth"
-	"github.com/usememos/memos/store"
-	teststore "github.com/usememos/memos/store/test"
+	"github.com/openwrtbuild/memos/internal/profile"
+	"github.com/openwrtbuild/memos/markdown"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	apiv1 "github.com/openwrtbuild/memos/server/api/v1"
+	"github.com/openwrtbuild/memos/server/auth"
+	"github.com/openwrtbuild/memos/store"
+	teststore "github.com/openwrtbuild/memos/store/test"
 )
 
 // TestService holds the test service setup for API v1 services.

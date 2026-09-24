@@ -16,9 +16,9 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func createSpaceTestUser(ctx context.Context, t *testing.T, service *APIV1Service, username string, role store.Role) *store.User {

@@ -16,10 +16,10 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/usememos/memos/internal/testutil"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/internal/testutil"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func newUploadTestService(t *testing.T) (*APIV1Service, context.Context) {

@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/usememos/memos/markdown"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/markdown"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 type Runner struct {

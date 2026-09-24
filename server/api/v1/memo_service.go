@@ -12,12 +12,12 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/usememos/memos/core/access"
-	"github.com/usememos/memos/core/memopayload"
-	"github.com/usememos/memos/internal/ratelimit"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/core/access"
+	"github.com/openwrtbuild/memos/core/memopayload"
+	"github.com/openwrtbuild/memos/internal/ratelimit"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 const maxBatchGetLinkMetadata = 10

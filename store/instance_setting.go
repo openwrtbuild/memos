@@ -9,7 +9,7 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
 )
 
 type InstanceSetting struct {

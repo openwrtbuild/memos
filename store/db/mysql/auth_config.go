@@ -7,7 +7,7 @@ import (
 	mysqldriver "github.com/go-sql-driver/mysql"
 	"github.com/pkg/errors"
 
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // IsRetryableAuthenticationMutationError reports whether err is a transient MySQL transaction failure.

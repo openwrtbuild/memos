@@ -8,8 +8,8 @@ import (
 	"github.com/yuin/goldmark/text"
 	"github.com/yuin/goldmark/util"
 
-	mast "github.com/usememos/memos/markdown/ast"
-	mparser "github.com/usememos/memos/markdown/parser"
+	mast "github.com/openwrtbuild/memos/markdown/ast"
+	mparser "github.com/openwrtbuild/memos/markdown/parser"
 )
 
 type tagExtension struct{}

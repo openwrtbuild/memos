@@ -11,8 +11,8 @@ import {
 import { getReleaseTag } from "@/lib/release-version";
 import { useTranslate } from "@/utils/i18n";
 
-const GITHUB_COMMIT_URL_PREFIX = "https://github.com/usememos/memos/commit/";
-const GITHUB_RELEASE_URL_PREFIX = "https://github.com/usememos/memos/releases/tag/";
+const GITHUB_COMMIT_URL_PREFIX = "https://github.com/openwrtbuild/memos/commit/";
+const GITHUB_RELEASE_URL_PREFIX = "https://github.com/openwrtbuild/memos/releases/tag/";
 
 const DEFAULT_TITLE = "Memos";
 const DEFAULT_TAGLINE = "Capture first. Keep it yours.";
@@ -60,7 +60,7 @@ const About = () => {
   if (shortCommit) {
     buildRows.push({ label: t("about.commit"), value: <Chip href={commitUrl}>{shortCommit}</Chip> });
   }
-  buildRows.push({ label: t("about.license"), value: <Chip href="https://github.com/usememos/memos/blob/main/LICENSE">MIT</Chip> });
+  buildRows.push({ label: t("about.license"), value: <Chip href="https://github.com/openwrtbuild/memos/blob/main/LICENSE">MIT</Chip> });
   if (isCustomBranded) {
     buildRows.push({
       label: t("about.distribution"),

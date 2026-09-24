@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import { TaskListItem } from "@/components/MemoContent/TaskListItem";
 
-// Regression test for usememos/memos#6143 ("Check all tasks not working").
+// Regression test for openwrtbuild/memos#6143 ("Check all tasks not working").
 //
 // remark-gfm passes `checked: undefined` for unchecked task items (`- [ ]`).
 // Base UI's Checkbox locks controlled/uncontrolled mode at mount, so a checkbox

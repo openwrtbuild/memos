@@ -15,12 +15,12 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/usememos/memos/internal/clientip"
-	"github.com/usememos/memos/internal/ratelimit"
-	apiv1 "github.com/usememos/memos/proto/gen/api/v1"
-	apiv1server "github.com/usememos/memos/server/api/v1"
-	"github.com/usememos/memos/server/auth"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/internal/clientip"
+	"github.com/openwrtbuild/memos/internal/ratelimit"
+	apiv1 "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	apiv1server "github.com/openwrtbuild/memos/server/api/v1"
+	"github.com/openwrtbuild/memos/server/auth"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // limitedPolicy returns the default table with one scope tightened.

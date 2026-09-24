@@ -9,10 +9,10 @@ import (
 	"github.com/labstack/echo/v5"
 	"github.com/stretchr/testify/require"
 
-	"github.com/usememos/memos/internal/profile"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
-	teststore "github.com/usememos/memos/store/test"
+	"github.com/openwrtbuild/memos/internal/profile"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
+	teststore "github.com/openwrtbuild/memos/store/test"
 )
 
 func TestFrontendService_CacheHeaderRules(t *testing.T) {

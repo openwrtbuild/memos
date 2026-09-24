@@ -23,7 +23,7 @@ This plugin provides a simple, reliable email sending interface following indust
 ### 1. Configure SMTP Settings
 
 ```go
-import "github.com/usememos/memos/internal/email"
+import "github.com/openwrtbuild/memos/internal/email"
 
 config := &email.Config{
     SMTPHost:     "smtp.gmail.com",
@@ -209,7 +209,7 @@ package main
 
 import (
     "log"
-    "github.com/usememos/memos/internal/email"
+    "github.com/openwrtbuild/memos/internal/email"
 )
 
 func main() {
@@ -492,7 +492,7 @@ This package follows the Memos contribution guidelines. Please ensure:
 
 For issues and questions:
 
-- Memos GitHub Issues: https://github.com/usememos/memos/issues
+- Memos GitHub Issues: https://github.com/openwrtbuild/memos/issues
 - Memos Documentation: https://usememos.com/docs
 
 ## Roadmap

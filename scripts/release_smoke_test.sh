@@ -37,7 +37,7 @@ Examples:
   ./scripts/release_smoke_test.sh
   ./scripts/release_smoke_test.sh \
     --candidate-image memos-smoke:local \
-    --previous-image neosmemo/memos:0.31.0
+    --previous-image dockerbuild01/memos:0.31.0
 EOF
 }
 
@@ -224,7 +224,7 @@ start_container() {
 
   docker run --detach \
     --name "$container_name" \
-    --label "org.usememos.release-smoke=$run_id" \
+    --label "org.openwrtbuild.release-smoke=$run_id" \
     --publish "127.0.0.1::5230" \
     --env MEMOS_MODE=prod \
     --env MEMOS_INSTANCE_URL=http://localhost \

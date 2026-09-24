@@ -24,12 +24,12 @@ import (
 	// sqlite driver.
 	_ "modernc.org/sqlite"
 
-	"github.com/usememos/memos/internal/profile"
-	"github.com/usememos/memos/internal/version"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/server"
-	"github.com/usememos/memos/store"
-	"github.com/usememos/memos/store/db"
+	"github.com/openwrtbuild/memos/internal/profile"
+	"github.com/openwrtbuild/memos/internal/version"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/server"
+	"github.com/openwrtbuild/memos/store"
+	"github.com/openwrtbuild/memos/store/db"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	"github.com/usememos/memos/store"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func TestSpaceIconLifecycle(t *testing.T) {

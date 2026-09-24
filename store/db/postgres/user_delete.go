@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 const deleteUserBatchSize = 500

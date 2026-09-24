@@ -31,7 +31,7 @@ const (
 	testPassword = "test"
 
 	// Memos container settings for migration testing.
-	MemosDockerImage = "neosmemo/memos"
+	MemosDockerImage = "dockerbuild01/memos"
 	// PreBaselineMemosVersion exercises the mandatory v0.31.0 intermediate upgrade.
 	// Keep this pinned: the current binary no longer ships its migration history.
 	PreBaselineMemosVersion = "0.30.0"

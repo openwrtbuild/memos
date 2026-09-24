@@ -9,7 +9,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
 )
 
 type UserSetting struct {

@@ -14,11 +14,11 @@ import (
 	"github.com/yuin/goldmark/parser"
 	"github.com/yuin/goldmark/text"
 
-	"github.com/usememos/memos/internal/identifier"
-	mast "github.com/usememos/memos/markdown/ast"
-	"github.com/usememos/memos/markdown/extensions"
-	"github.com/usememos/memos/markdown/renderer"
-	storepb "github.com/usememos/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/internal/identifier"
+	mast "github.com/openwrtbuild/memos/markdown/ast"
+	"github.com/openwrtbuild/memos/markdown/extensions"
+	"github.com/openwrtbuild/memos/markdown/renderer"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
 )
 
 // ManagedAttachmentReference is an attachment URL embedded using Markdown image syntax.

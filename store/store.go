@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/usememos/memos/internal/profile"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/provider/storage"
-	"github.com/usememos/memos/store/cache"
+	"github.com/openwrtbuild/memos/internal/profile"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/provider/storage"
+	"github.com/openwrtbuild/memos/store/cache"
 )
 
 // Store provides database access to all raw objects.

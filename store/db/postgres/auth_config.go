@@ -7,7 +7,7 @@ import (
 	"github.com/lib/pq"
 	"github.com/pkg/errors"
 
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // IsRetryableAuthenticationMutationError reports whether err is a transient PostgreSQL transaction failure.

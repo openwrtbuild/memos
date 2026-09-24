@@ -14,12 +14,12 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	"github.com/usememos/memos/internal/profile"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/server/auth"
-	"github.com/usememos/memos/store"
-	teststore "github.com/usememos/memos/store/test"
+	"github.com/openwrtbuild/memos/internal/profile"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/server/auth"
+	"github.com/openwrtbuild/memos/store"
+	teststore "github.com/openwrtbuild/memos/store/test"
 )
 
 // newIntegrationService builds a minimal APIV1Service backed by an in-memory

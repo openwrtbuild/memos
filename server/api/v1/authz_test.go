@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/usememos/memos/server/auth"
+	"github.com/openwrtbuild/memos/server/auth"
 )
 
 type stubAnonymousAccessStore struct {

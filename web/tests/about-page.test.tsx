@@ -50,12 +50,12 @@ describe("<About>", () => {
 
     expect(screen.getByRole("heading", { name: "Memos" })).toBeInTheDocument();
     expect(screen.getByText(/Capture first/i)).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "v0.25.0" })).toHaveAttribute("href", "https://github.com/usememos/memos/releases/tag/v0.25.0");
+    expect(screen.getByRole("link", { name: "v0.25.0" })).toHaveAttribute("href", "https://github.com/openwrtbuild/memos/releases/tag/v0.25.0");
     expect(screen.getByRole("link", { name: "0123456" })).toHaveAttribute(
       "href",
-      "https://github.com/usememos/memos/commit/0123456789abcdef0123456789abcdef01234567",
+      "https://github.com/openwrtbuild/memos/commit/0123456789abcdef0123456789abcdef01234567",
     );
-    expect(screen.getByRole("link", { name: "MIT" })).toHaveAttribute("href", "https://github.com/usememos/memos/blob/main/LICENSE");
+    expect(screen.getByRole("link", { name: "MIT" })).toHaveAttribute("href", "https://github.com/openwrtbuild/memos/blob/main/LICENSE");
   });
 
   it("links to the project homepage, docs, API docs, GitHub, and Web Clipper", () => {
@@ -65,7 +65,7 @@ describe("<About>", () => {
     expect(screen.getByRole("link", { name: /about\.documents/ })).toHaveAttribute("href", "https://usememos.com/docs");
     expect(screen.getByRole("link", { name: /about\.api-docs/ })).toHaveAttribute("href", "https://usememos.com/docs/api");
     expect(screen.getByRole("link", { name: /about\.web-clipper/ })).toHaveAttribute("href", "https://github.com/usememos/web-clipper");
-    expect(screen.getByRole("link", { name: /about\.github-repository/ })).toHaveAttribute("href", "https://github.com/usememos/memos");
+    expect(screen.getByRole("link", { name: /about\.github-repository/ })).toHaveAttribute("href", "https://github.com/openwrtbuild/memos");
   });
 
   it("does not surface the instance URL, administrator, or birds", () => {

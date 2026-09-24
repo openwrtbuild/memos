@@ -1172,7 +1172,7 @@ const file_store_user_setting_proto_rawDesc = "" +
 	"\x05title\x18\x02 \x01(\tR\x05title\x12\x10\n" +
 	"\x03url\x18\x03 \x01(\tR\x03url\x12%\n" +
 	"\x0esigning_secret\x18\x04 \x01(\tR\rsigningSecretB\x9b\x01\n" +
-	"\x0fcom.memos.storeB\x10UserSettingProtoP\x01Z)github.com/usememos/memos/proto/gen/store\xa2\x02\x03MSX\xaa\x02\vMemos.Store\xca\x02\vMemos\\Store\xe2\x02\x17Memos\\Store\\GPBMetadata\xea\x02\fMemos::Storeb\x06proto3"
+	"\x0fcom.memos.storeB\x10UserSettingProtoP\x01Z)github.com/openwrtbuild/memos/proto/gen/store\xa2\x02\x03MSX\xaa\x02\vMemos.Store\xca\x02\vMemos\\Store\xe2\x02\x17Memos\\Store\\GPBMetadata\xea\x02\fMemos::Storeb\x06proto3"
 
 var (
 	file_store_user_setting_proto_rawDescOnce sync.Once

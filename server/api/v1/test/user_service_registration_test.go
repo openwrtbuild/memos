@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	apiv1 "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	apiv1server "github.com/usememos/memos/server/api/v1"
-	"github.com/usememos/memos/store"
+	apiv1 "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	apiv1server "github.com/openwrtbuild/memos/server/api/v1"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func TestCreateUserRegistration(t *testing.T) {

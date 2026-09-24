@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/usememos/memos/core/access"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/core/access"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func (s *APIV1Service) resolveMentionTargets(ctx context.Context, content string) (map[int32]*store.User, error) {

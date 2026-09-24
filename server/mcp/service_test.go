@@ -15,9 +15,9 @@ import (
 	sdkmcp "github.com/modelcontextprotocol/go-sdk/mcp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/usememos/memos/internal/clientip"
-	"github.com/usememos/memos/internal/profile"
-	memosproto "github.com/usememos/memos/proto"
+	"github.com/openwrtbuild/memos/internal/clientip"
+	"github.com/openwrtbuild/memos/internal/profile"
+	memosproto "github.com/openwrtbuild/memos/proto"
 )
 
 func TestIsAllowedMCPOrigin(t *testing.T) {

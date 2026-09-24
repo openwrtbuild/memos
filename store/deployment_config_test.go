@@ -13,10 +13,10 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/usememos/memos/internal/profile"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
-	"github.com/usememos/memos/store/db/sqlite"
+	"github.com/openwrtbuild/memos/internal/profile"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
+	"github.com/openwrtbuild/memos/store/db/sqlite"
 )
 
 func TestLoadDeploymentConfigurationPublishesRuntimeOnlyIdentityProvider(t *testing.T) {

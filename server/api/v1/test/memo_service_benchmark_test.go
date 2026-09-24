@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/usememos/memos/internal/profile"
-	"github.com/usememos/memos/internal/version"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	apiv1 "github.com/usememos/memos/server/api/v1"
-	"github.com/usememos/memos/server/auth"
-	"github.com/usememos/memos/store"
-	"github.com/usememos/memos/store/db"
+	"github.com/openwrtbuild/memos/internal/profile"
+	"github.com/openwrtbuild/memos/internal/version"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	apiv1 "github.com/openwrtbuild/memos/server/api/v1"
+	"github.com/openwrtbuild/memos/server/auth"
+	"github.com/openwrtbuild/memos/store"
+	"github.com/openwrtbuild/memos/store/db"
 )
 
 const (

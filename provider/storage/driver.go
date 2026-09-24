@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/provider/storage/s3"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/provider/storage/s3"
 )
 
 // ErrRangeNotSatisfiable reports a ranged read whose byte range falls outside

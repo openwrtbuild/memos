@@ -7,7 +7,7 @@ body:
       value: |
         Thanks for suggesting an improvement. Please keep the request focused on one problem.
 
-        Before submitting, search [existing issues](https://github.com/usememos/memos/issues) to avoid duplicates. For broad ideas and questions, use [Discussions](https://github.com/usememos/memos/discussions).
+        Before submitting, search [existing issues](https://github.com/openwrtbuild/memos/issues) to avoid duplicates. For broad ideas and questions, use [Discussions](https://github.com/openwrtbuild/memos/discussions).
 
   - type: checkboxes
     id: pre-check

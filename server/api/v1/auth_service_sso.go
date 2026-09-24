@@ -10,11 +10,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/usememos/memos/internal/random"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/provider/idp"
-	"github.com/usememos/memos/provider/idp/oauth2"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/internal/random"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/provider/idp"
+	"github.com/openwrtbuild/memos/provider/idp/oauth2"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func (s *APIV1Service) resolveSSOUser(ctx context.Context, currentUser *store.User, identityProvider *storepb.IdentityProvider, userInfo *idp.IdentityProviderUserInfo) (*store.User, error) {

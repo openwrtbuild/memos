@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/usememos/memos/internal/testutil/fakes3"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/provider/storage/s3"
-	apiv1 "github.com/usememos/memos/server/api/v1"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/internal/testutil/fakes3"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/provider/storage/s3"
+	apiv1 "github.com/openwrtbuild/memos/server/api/v1"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func TestS3AttachmentLifecycleAcrossStorageChange(t *testing.T) {

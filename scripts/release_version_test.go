@@ -51,7 +51,7 @@ func TestPreviousReleaseImage(t *testing.T) {
 		require.Equal(t, want+"\n", string(out))
 		out, err = exec.Command("bash", "release_version.sh", "previous-image", repo).CombinedOutput()
 		require.NoError(t, err, string(out))
-		require.Equal(t, "neosmemo/memos:"+strings.TrimPrefix(want, "v")+"\n", string(out))
+		require.Equal(t, "dockerbuild01/memos:"+strings.TrimPrefix(want, "v")+"\n", string(out))
 	}
 	runGit("init", "-b", "main")
 	runGit("commit", "--allow-empty", "-m", "old")

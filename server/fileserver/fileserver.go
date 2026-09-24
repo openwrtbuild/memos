@@ -20,14 +20,14 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/usememos/memos/core/access"
-	"github.com/usememos/memos/internal/imagelimit"
-	"github.com/usememos/memos/internal/motionphoto"
-	"github.com/usememos/memos/internal/profile"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/provider/storage"
-	"github.com/usememos/memos/server/auth"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/core/access"
+	"github.com/openwrtbuild/memos/internal/imagelimit"
+	"github.com/openwrtbuild/memos/internal/motionphoto"
+	"github.com/openwrtbuild/memos/internal/profile"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/provider/storage"
+	"github.com/openwrtbuild/memos/server/auth"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // Constants for file serving configuration.

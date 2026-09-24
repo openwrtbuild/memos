@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	stderrors "errors"
 
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // readMySQLMemoActor reads the actor's lifecycle state and instance role

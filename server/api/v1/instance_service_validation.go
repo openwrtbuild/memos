@@ -10,9 +10,9 @@ import (
 	"github.com/pkg/errors"
 	colorpb "google.golang.org/genproto/googleapis/type/color"
 
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func applyInstanceSettingDefaults(setting *v1pb.InstanceSetting) {

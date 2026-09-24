@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/usememos/memos/filter"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/filter"
+	"github.com/openwrtbuild/memos/store"
 )
 
 func (d *DB) UpsertMemoRelation(ctx context.Context, create *store.MemoRelation) (*store.MemoRelation, error) {

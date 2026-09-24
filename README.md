@@ -10,10 +10,10 @@ Memos is an open-source, self-hosted home for short-form thinking. Daily notes, 
 
 **[Run with Docker](#quick-start)** · **[Try the live demo](https://demo.usememos.com/)** · [Read the docs](https://usememos.com/docs)
 
-[![GitHub stars](https://img.shields.io/github/stars/usememos/memos?style=flat-square&logo=github&label=Stars)](https://github.com/usememos/memos)
-[![Latest release](https://img.shields.io/github/v/release/usememos/memos?style=flat-square&label=Release)](https://github.com/usememos/memos/releases)
-[![Docker pulls](https://img.shields.io/docker/pulls/neosmemo/memos?style=flat-square&logo=docker)](https://hub.docker.com/r/neosmemo/memos)
-[![MIT license](https://img.shields.io/github/license/usememos/memos?style=flat-square)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/openwrtbuild/memos?style=flat-square&logo=github&label=Stars)](https://github.com/openwrtbuild/memos)
+[![Latest release](https://img.shields.io/github/v/release/openwrtbuild/memos?style=flat-square&label=Release)](https://github.com/openwrtbuild/memos/releases)
+[![Docker pulls](https://img.shields.io/docker/pulls/dockerbuild01/memos?style=flat-square&logo=docker)](https://hub.docker.com/r/dockerbuild01/memos)
+[![MIT license](https://img.shields.io/github/license/openwrtbuild/memos?style=flat-square)](LICENSE)
 
 <img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png" alt="Memos Demo Screenshot" height="512" />
 
@@ -35,7 +35,7 @@ docker run -d \
   --name memos \
   -p 5230:5230 \
   -v ~/.memos:/var/opt/memos \
-  neosmemo/memos:stable
+  dockerbuild01/memos:stable
 ```
 
 Other install options are in the [deployment guide](https://usememos.com/docs/deploy).
@@ -43,7 +43,7 @@ Other install options are in the [deployment guide](https://usememos.com/docs/de
 Releases use `YY.MM`, with optional point releases such as `26.09.1` and release
 candidates such as `26.09-rc.1`. Calendar release tags have no `v` prefix. The Docker `stable` tag follows stable releases;
 `canary` follows development builds. If upgrading from a release before v0.31.0,
-run [v0.31.0](https://github.com/usememos/memos/releases/tag/v0.31.0) successfully.
+run [v0.31.0](https://github.com/openwrtbuild/memos/releases/tag/v0.31.0) successfully.
 See the [upgrade requirements](store/migration/README.md) for earlier versions.
 
 ## Web Clipper
@@ -64,14 +64,14 @@ Love Memos? [Sponsor the project on GitHub](https://github.com/sponsors/usememos
 
 ## Get Help
 
-Read the [docs](https://usememos.com/docs), join [Discord](https://discord.gg/tfPJa4UmAv), or ask in [GitHub Discussions](https://github.com/usememos/memos/discussions). Found a bug or have an idea? [Open an issue](https://github.com/usememos/memos/issues/new/choose). To contribute, see the [contributing guide](https://usememos.com/docs/development/contributing).
+Read the [docs](https://usememos.com/docs), join [Discord](https://discord.gg/tfPJa4UmAv), or ask in [GitHub Discussions](https://github.com/openwrtbuild/memos/discussions). Found a bug or have an idea? [Open an issue](https://github.com/openwrtbuild/memos/issues/new/choose). To contribute, see the [contributing guide](https://usememos.com/docs/development/contributing).
 
 ## Star History
 
 <a href="https://www.star-history.com/?repos=usememos%2Fmemos&amp;type=date&amp;legend=top-left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=usememos/memos&amp;type=date&amp;theme=dark&amp;legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=usememos/memos&amp;type=date&amp;legend=top-left" />
-    <img alt="Memos star history chart" src="https://api.star-history.com/chart?repos=usememos/memos&amp;type=date&amp;legend=top-left" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openwrtbuild/memos&amp;type=date&amp;theme=dark&amp;legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openwrtbuild/memos&amp;type=date&amp;legend=top-left" />
+    <img alt="Memos star history chart" src="https://api.star-history.com/chart?repos=openwrtbuild/memos&amp;type=date&amp;legend=top-left" />
   </picture>
 </a>

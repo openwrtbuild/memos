@@ -13,9 +13,9 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/genai"
 
-	"github.com/usememos/memos/provider/ai"
-	"github.com/usememos/memos/provider/ai/audio"
-	"github.com/usememos/memos/provider/ai/audiollm"
+	"github.com/openwrtbuild/memos/provider/ai"
+	"github.com/openwrtbuild/memos/provider/ai/audio"
+	"github.com/openwrtbuild/memos/provider/ai/audiollm"
 )
 
 const (

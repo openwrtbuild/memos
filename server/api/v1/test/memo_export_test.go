@@ -17,12 +17,12 @@ import (
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/usememos/memos/core/memoexport"
-	"github.com/usememos/memos/internal/ratelimit"
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	apiv1 "github.com/usememos/memos/server/api/v1"
-	"github.com/usememos/memos/store"
+	"github.com/openwrtbuild/memos/core/memoexport"
+	"github.com/openwrtbuild/memos/internal/ratelimit"
+	v1pb "github.com/openwrtbuild/memos/proto/gen/api/v1"
+	storepb "github.com/openwrtbuild/memos/proto/gen/store"
+	apiv1 "github.com/openwrtbuild/memos/server/api/v1"
+	"github.com/openwrtbuild/memos/store"
 )
 
 // archiveFixture is the state one user builds before exporting.
